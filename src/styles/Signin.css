@@ -1,0 +1,31 @@
+.Signin_container {
+  width: 1440px;
+  height: 1024px;
+  margin: auto;
+  display: flex;
+}
+
+.Signin_rightBox {
+  display: flex;
+  height: 690px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Signin_input > p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.Signin_input > input {
+  width: 652px;
+  height: 50px;
+  margin-bottom: 40px;
+  outline-color: #ACACAC;
+}
+
+.Signin_input > input:hover {
+  outline-color: #8C6E52;
+}

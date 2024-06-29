@@ -1,0 +1,102 @@
+.Main_container {
+  /* width: 1440px; */
+  min-height: 840px;
+  margin: auto;
+}
+
+.Main_img {
+  width: 1440px;
+  margin: auto;
+}
+
+.Main_Linked {
+  width: 1000px;
+  margin: auto;
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Main_Linked > div {
+  width: 295px;
+  height: 307px;
+  border-radius: 50px;
+}
+
+.main_icon {
+  width: 160px;
+  height: 160px;
+  margin: 20px 70px;
+}
+
+.main_semiTitle {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.clickLink {
+  margin-right: 10px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.clickLink > * {
+  width: 20px;
+  color: #7D6249;
+}
+
+.Main_Userlist {
+  width: 1000px;
+  margin: auto;
+  margin-top: 85px;
+}
+
+.Userlist_detail {
+  width: 1000px;
+  height: 252px;
+  margin-top: 15px;
+  border-radius: 15px;
+  border: 1px solid #64503E;
+  background-color: #FFFCF8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Userlist_detail > div {
+  width: 155px;
+  height: 160px;
+}
+
+.Main_board {
+  width: 1000px;
+  margin: auto;
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 85px;
+}
+
+.Board_detail {
+  width: 460px;
+  height: 157px;
+  margin-top: 15px;
+  border-radius: 15px;
+  border: 1px solid #64503E;
+  background-color: #FFFCF8;
+}
+
+.board_list {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+
+.board_list > p {
+  font-size: 18px;
+  font-weight: 500;
+}
